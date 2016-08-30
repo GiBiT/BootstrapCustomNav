@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Comments -->
+<!-- This is where to put bugs and comments 
+
+
+-->
+<!-- End Comments -->
+<title>Navbar Tester</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS -->
+<link rel='stylesheet' href='css/bootstrap.min.css'>
+<link rel='stylesheet' href='css/bg-primary-nav.css'>
+<!-- End CSS -->
+
+</head>
+
+<!-- Start Page -->
+<body>
+<div class='wrapper'>
+	<nav class='navbar'>
+		<div class='navbar-header'>
+			<a class='navbar-brand'>Navbar Title</a>
+			<!--Custom Toggle Menu -->
+			<a href='#' class='canvas-toggle navbar-toggle collapsed' data-toggle='collapse' data-target='#top'aria-expanded='false' >
+        		<div class='menu'>
+            		<div class='top-bar'></div>
+            		<div class='middle-bar'></div>
+            		<div class='bottom-bar'></div>
+        		</div>
+    		</a>
+    		<!-- End of Custom Toggle Menu -->
+		</div>
+		
+		<div class='collapse navbar-collapse' id='top'>
+				<!-- Navbar Content -->
+
+				<!-- Navbar Left Buttons -->
+				<ul class='nav navbar-nav navbar-left text-center'>	
+					<li><a href='#'> Button Left </a></li>
+					<!-- Dropdown -->
+					<li class='dropdown'>
+						<a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Left Dropdown <span class='caret'></span></a>
+						<ul class='dropdown-menu'>
+							<li class='nav-item'><a href='#'>Dropdown 1</a></li>
+							<li class='nav-item'><a href='#'>Dropdown 2</a></li>
+							<li class='nav-item'><a href='#'>Dropdown 3</a></li>
+							<li class='nav-item'><a href='#'>Dropdown 4</a></li>
+						</ul>
+					</li>
+					<!-- End of Dropdown -->	
+				</ul><!-- End of Left Navbar Buttons -->
+				<!-- Navbar Right Buttons -->
+				<ul class='nav navbar-nav navbar-right text-center'>
+					<!-- Dropdown -->
+					<li class='dropdown'>
+						<a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Right Dropdown <span class='caret'></span></a>
+						<ul class='dropdown-menu'>
+							<li class='nav-item'><a href='#'>Dropdown 1</a></li>
+							<li class='nav-item'><a href='#'>Dropdown 2</a></li>
+							<li class='nav-item'><a href='#'>Dropdown 3</a></li>
+							<li class='nav-item'><a href='#'>Dropdown 4</a></li>
+						</ul>
+					</li>
+					<!-- End of Dropdown -->
+					<li class='nav-item'><a href='#'> Button Right </a></li>	
+				</ul><!-- End of Right Navbar Buttons-->
+				<!-- End of Navbar Content -->
+
+		</div> <!-- End of 'collapse navbar-collapse' -->
+	</nav> <!-- End of 'nav' -->
+</div> <!-- End of Wrapper -->
+
+<!-- Javascript -->
+
+<!-- jQuery 2.4.4 -->
+<script type='text/javascript' src='js/jquery.min.js'></script>
+<!-- Bootstrap -->
+<script type='text/javascript' src='js/bootstrap.min.js'></script>
+<!-- Toggle Animation for Mobile Bars to 'X' -->
+<script type='text/javascript' src='js/toggle.js'></script>
+
+</body>
+</html>
